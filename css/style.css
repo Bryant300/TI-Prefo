@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: radial-gradient(black, red);
     background-repeat: no-repeat;
-    height: 100vh;
+
 }
 
 header {
@@ -39,18 +39,22 @@ header h1 span {
 
 }
 
-nav {
+aside {
+    position: relative;
+}
+
+aside nav {
     position: sticky;
+    top: 0;
     left: 100px;
     padding-top: 20px;
     text-align: center;
+    border-radius: 10px;
 }
 
 aside nav a {
     color: aliceblue;
     text-decoration: none;
-    text-align: center;
-
 }
 
 nav ul li {
@@ -67,8 +71,54 @@ nav ul {
 
 }
 
-aside nav a:hover {
-    color: rgb(255, 38, 38);
+aside nav ul a:hover {
+    color: red;
+    background-color: black;
+    border-radius: 10px;
     padding: 5px;
-    transition: 30s cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.container {
+    position: relative;
+    width: 874px;
+    left: 150px;
+    top: -209px;
+    padding: 0px 25px;
+}
+
+.rapport-box {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    height: 218.5px;
+    width: 218.5px;
+}
+
+.interviex-box {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    height: 218.5px;
+    width: 218.5px;
+}
+
+.parcours-box {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    height: 218.5px;
+    width: 218.5px;
+}
+
+.conclusion-box {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    height: 218.5px;
+    width: 218.5px;
 }
