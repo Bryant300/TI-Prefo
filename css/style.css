@@ -6,10 +6,11 @@
 
 body {
     width: 1024px;
-    margin: auto;
+    justify-self: center;
     font-family: Arial, Helvetica, sans-serif;
     background: radial-gradient(black, red);
     background-repeat: no-repeat;
+
 }
 
 header {
@@ -86,9 +87,9 @@ main {
     width: 874px;
     right: -150px;
     top: -399px;
-    height: 250px;
-
+    height: 300px;
 }
+
 
 .container {
     position: relative;
@@ -103,6 +104,23 @@ main {
 .container h2 {
     padding-top: 15px;
     color: aliceblue;
+}
+
+.container h3 {
+    text-align: center;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+}
+
+.hr {
+    height: 2px;
+    width: 400px;
+    background: linear-gradient(black, red);
+    margin: 20px;
+    justify-self: center;
+
 }
 
 .container p {
@@ -139,12 +157,21 @@ main {
 }
 
 footer {
-    position: relative;
     background: black;
     padding: 20px;
     color: aliceblue;
     text-align: center;
-    margin: 20px;
+    margin-bottom: 20px;
+}
 
+.inter-container {
+    position: relative;
+    left: 150px;
+    top: -199px;
+    margin-left: 20px;
+    width: 854px;
+}
 
+.inter-container h3 {
+    padding: 15px;
 }
