@@ -188,6 +188,8 @@ footer {
     text-align: center;
     margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px red,
+        0px 0px 10px 0px red, inset -2px 2px 20px 4px #ff000081;
 }
 
 .inter-container {
@@ -290,4 +292,14 @@ footer {
     padding: 5px;
     margin-top: 5px;
     text-shadow: 1px 0px 5px rgba(255, 255, 255, 0.651);
+}
+
+.social {
+    transition: 1s all;
+
+}
+
+.social:hover {
+    color: red;
+    background-color: black;
 }
