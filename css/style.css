@@ -14,12 +14,13 @@ body {
 }
 
 header {
+    border: 1px solid rgba(255, 0, 0, 0.418);
     color: aliceblue;
     text-align: center;
     font-weight: bold;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.493);
+    box-shadow: 2px 4px 2px rgba(255, 0, 0, 0.493);
 }
 
 header h1 {
@@ -138,6 +139,11 @@ main {
     border-radius: 10px;
     text-align: center;
     margin-bottom: 20px;
+    transition: 1s;
+}
+
+.box p {
+    padding: 0px 10px;
 }
 
 .box img {
@@ -146,7 +152,7 @@ main {
     align-self: center;
     border-radius: 100%;
     box-shadow: 1px 1px 20px 1px rgba(255, 255, 255, 0.61);
-
+    transition: 1s;
 }
 
 .logo {
@@ -156,6 +162,7 @@ main {
     width: 150px;
     border-radius: 100%;
     margin-left: 50px;
+    transition: 1s;
     box-shadow: 1px 1px 20px 1px rgba(255, 255, 255, 0.61);
 }
 
@@ -259,8 +266,27 @@ footer {
 
 .logo:hover {
     box-shadow: 1px 1px 20px 1px rgb(255, 0, 0);
+    transform: rotate(360deg);
 }
 
-img:hover {
+.box img:hover {
+    transform: rotate(360deg);
     box-shadow: 1px 1px 20px 1px rgb(255, 0, 0);
+}
+
+.inter-content img {
+    height: 400px;
+    padding: 15px;
+}
+
+.inter-content .social {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-decoration: none;
+    border: 2px solid red;
+    box-shadow: 0px 0px 10px 0px red,
+        0px 0px 10px 0px red, inset -2px 2px 20px 4px #ff000081;
+    padding: 5px;
+    margin-top: 5px;
+    text-shadow: 1px 0px 5px rgba(255, 255, 255, 0.651);
 }
